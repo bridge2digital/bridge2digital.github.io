@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+/* Navbar styling */
+
+
+.navbar-brand {
+    position: relative;
+    right: -50px;
+}
+.navbar-nav {
+    position: relative;
+    left: -50px;
+}
+.nav-item {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.nav-link {
+    color: #002A5F;
+    font-size: 1.2em;
+    border: 1px solid #002A5F;
+    border-radius: 6px;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+    background-color: #002A5F;
+    font-size: 1.2em;
+    border: 1px solid #002A5F;
+    border-radius: 6px;
+}
+
+/* Jumbotron styling */
+
+.jumbotron {
+    background-size: cover;
+    height: 478px;
+}
+
+.first-jumbo {
+    background-image: url("/img/Fbookcover01.png");
+}
+
+.second-jumbo {
+    background-image: url("/img/Fbookcover02.png");
+}
+
+.about-container {
+    text-align: center;
+}
